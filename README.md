@@ -7,21 +7,30 @@
 ![Backend](https://img.shields.io/badge/Backend-Insforge-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
+# 🧠 Life Decision AI
+
+<div align="center">
+
+![Life Decision AI Banner](https://img.shields.io/badge/Life%20Decision%20AI-v6.0-blueviolet?style=for-the-badge&logo=artificial-intelligence)
+![Live](https://img.shields.io/badge/Live-Production-brightgreen?style=for-the-badge&logo=vercel)
+![Backend](https://img.shields.io/badge/Backend-Insforge-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
 **An AI-powered career decision support system using Fuzzy Logic, Logistic Regression, and Genetic Algorithms.**
 
-[ðŸŒ Live App](https://life-decision-ai.vercel.app) â€¢ [ðŸ“¦ GitHub](https://github.com/MohammadSakibAhmad0874/Life-Decision-AI-) â€¢ [ðŸ› Report Bug](https://github.com/MohammadSakibAhmad0874/Life-Decision-AI-/issues)
+[🌐 Live App](https://life-decision-ai.vercel.app) • [📦 GitHub](https://github.com/MohammadSakibAhmad0874/Life-Decision-AI-) • [🐛 Report Bug](https://github.com/MohammadSakibAhmad0874/Life-Decision-AI-/issues)
 
 </div>
 
 ---
 
-## ðŸ“Œ What Is This Project?
+## 📌 What Is This Project?
 
-**Life Decision AI** is an intelligent career decision-making platform that uses three Soft Computing techniques â€” **Fuzzy Logic**, **Logistic Regression**, and **Genetic Algorithms** â€” to score how well a career path fits a user's profile.
+**Life Decision AI** is an intelligent career decision-making platform that uses three Soft Computing techniques — **Fuzzy Logic**, **Logistic Regression**, and **Genetic Algorithms** — to score how well a career path fits a user's profile.
 
 Users enter their **skill level**, **interest level**, and **risk tolerance**, choose a **domain** (e.g., Engineering, Medicine, Technology), and the system returns:
 
-- A **decision score** (0â€“100) with recommendation
+- A **decision score** (0–100) with recommendation
 - A **career simulation** showing salary growth over years
 - An **AI Mentor** for personalized career guidance
 - A **Roadmap** to achieve their career goal
@@ -30,9 +39,9 @@ Users enter their **skill level**, **interest level**, and **risk tolerance**, c
 
 ---
 
-## â“ Why Does the World Need This?
+## ❓ Why Does the World Need This?
 
-> Every year, millions of students and professionals make critical career decisions based on incomplete information, peer pressure, or family opinions â€” not actual data.
+> Every year, millions of students and professionals make critical career decisions based on incomplete information, peer pressure, or family opinions — not actual data.
 
 **Life Decision AI** solves this by:
 
@@ -46,64 +55,64 @@ Users enter their **skill level**, **interest level**, and **risk tolerance**, c
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
-- ðŸ¤– **AI Decision Engine** â€” Fuzzy Logic + Logistic Regression + Genetic Algorithm
-- ðŸ“Š **Career Simulation** â€” Multi-year salary & role trajectory projections
-- ðŸ§­ **AI Mentor Chat** â€” Context-aware career coach available 24/7
-- ðŸ—ºï¸ **Personalized Roadmap** â€” Step-by-step path to achieve your career goal
-- âš–ï¸ **Career Comparison** â€” Compare up to 2 domains side-by-side
-- ðŸ” **XAI Panel** â€” Explainable AI: see WHY a score was given
-- ðŸ“œ **Decision History** â€” Persistent record of all past decisions
-- ðŸ’³ **Premium Plan** â€” Razorpay-powered payment gateway (serverless)
-- ðŸ” **Secure Auth** â€” JWT-based authentication via Insforge
-- ðŸ“± **Responsive UI** â€” Works on mobile, tablet, desktop
-
----
-
-## ðŸ—ï¸ System Architecture
-
-```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                        USER BROWSER                             â”‚
-â”‚                                                                 â”‚
-â”‚  React + Vite (SPA) â€” hosted on Vercel                         â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”      â”‚
-â”‚  â”‚ InputFormâ”‚  â”‚HistoryPnlâ”‚  â”‚MentorChatâ”‚  â”‚  Pricing â”‚      â”‚
-â”‚  â””â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”˜      â”‚
-â”‚       â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜            â”‚
-â”‚                          â”‚ insforgeApi.js                       â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                           â”‚ HTTPS (REST)
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                  INSFORGE EDGE FUNCTIONS (Deno)                 â”‚
-â”‚                                                                 â”‚
-â”‚  /predict-decision    â€” Fuzzy + LR + GA scoring engine          â”‚
-â”‚  /simulate-career     â€” Salary & role trajectory projection     â”‚
-â”‚  /save-decision       â€” Persist decision to Postgres DB         â”‚
-â”‚  /get-user-history    â€” Paginated decision history              â”‚
-â”‚  /create-payment-orderâ€” Razorpay order creation                 â”‚
-â”‚  /upgrade-user        â€” Verify payment + upgrade plan           â”‚
-â”‚  /create-user-profile â€” Post-auth user profile setup            â”‚
-â”‚                                                                 â”‚
-â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                â”‚
-â”‚  â”‚  Insforge Auth â”‚        â”‚ Insforge Postgres â”‚                â”‚
-â”‚  â”‚  (JWT built-in)â”‚        â”‚  users/decisions  â”‚                â”‚
-â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜        â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                           â”‚ API Call
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚                  EXTERNAL SERVICES                              â”‚
-â”‚  Razorpay Payment Gateway â€” order creation & sig verification   â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-```
+- 🤖 **AI Decision Engine** — Fuzzy Logic + Logistic Regression + Genetic Algorithm
+- 📊 **Career Simulation** — Multi-year salary & role trajectory projections
+- 🧭 **AI Mentor Chat** — Context-aware career coach available 24/7
+- 🗺️ **Personalized Roadmap** — Step-by-step path to achieve your career goal
+- ⚖️ **Career Comparison** — Compare up to 2 domains side-by-side
+- 🔍 **XAI Panel** — Explainable AI: see WHY a score was given
+- 📜 **Decision History** — Persistent record of all past decisions
+- 💳 **Premium Plan** — Razorpay-powered payment gateway (serverless)
+- 🔐 **Secure Auth** — JWT-based authentication via Insforge
+- 📱 **Responsive UI** — Works on mobile, tablet, desktop
 
 ---
 
-## ðŸ”¬ How the AI Works
+## 🏗️ System Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        USER BROWSER                             │
+│                                                                 │
+│  React + Vite (SPA) — hosted on Vercel                         │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐      │
+│  │ InputForm│  │HistoryPnl│  │MentorChat│  │  Pricing │      │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘      │
+│       └─────────────┴──────────────┴──────────────┘            │
+│                          │ insforgeApi.js                       │
+└──────────────────────────┼──────────────────────────────────────┘
+                           │ HTTPS (REST)
+┌──────────────────────────▼──────────────────────────────────────┐
+│                  INSFORGE EDGE FUNCTIONS (Deno)                 │
+│                                                                 │
+│  /predict-decision    — Fuzzy + LR + GA scoring engine          │
+│  /simulate-career     — Salary & role trajectory projection     │
+│  /save-decision       — Persist decision to Postgres DB         │
+│  /get-user-history    — Paginated decision history              │
+│  /create-payment-order— Razorpay order creation                 │
+│  /upgrade-user        — Verify payment + upgrade plan           │
+│  /create-user-profile — Post-auth user profile setup            │
+│                                                                 │
+│  ┌────────────────┐        ┌──────────────────┐                │
+│  │  Insforge Auth │        │ Insforge Postgres │                │
+│  │  (JWT built-in)│        │  users/decisions  │                │
+│  └────────────────┘        └──────────────────┘                │
+└─────────────────────────────────────────────────────────────────┘
+                           │ API Call
+┌──────────────────────────▼──────────────────────────────────────┐
+│                  EXTERNAL SERVICES                              │
+│  Razorpay Payment Gateway — order creation & sig verification   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🔬 How the AI Works
 
 ### 1. Fuzzy Logic Engine
-Converts numerical inputs (0â€“10) into linguistic variables using **trapezoidal membership functions**:
+Converts numerical inputs (0–10) into linguistic variables using **trapezoidal membership functions**:
 - Skill: `Low | Medium | High`
 - Interest: `Low | Medium | High`
 - Risk Tolerance: `Low | Medium | High`
@@ -113,8 +122,8 @@ Then applies **IF-THEN rules** (e.g., *IF skill=High AND interest=High THEN scor
 ### 2. Logistic Regression
 A pre-trained model with weights optimised for career dataset patterns:
 ```
-z = 0.42 Ã— skill + 0.38 Ã— interest + 0.20 Ã— risk âˆ’ 3.5
-probability = 1 / (1 + e^âˆ’z)
+z = 0.42 × skill + 0.38 × interest + 0.20 × risk − 3.5
+probability = 1 / (1 + e^−z)
 ```
 
 ### 3. Genetic Algorithm
@@ -122,71 +131,71 @@ Optimises the **blending weights** between fuzzy and logistic scores by simulati
 
 ### Final Score Formula
 ```
-result_score = GA_optimised(0.6 Ã— fuzzy_score + 0.4 Ã— logistic_prob) Ã— 100
+result_score = GA_optimised(0.6 × fuzzy_score + 0.4 × logistic_prob) × 100
 ```
 
 ### Score Interpretation
 | Score | Recommendation |
 |---|---|
-| 70â€“100 | âœ… Highly Recommended |
-| 50â€“69 | ðŸŸ¡ Moderately Recommended |
-| 30â€“49 | âš ï¸ Proceed with Caution |
-| 0â€“29 | âŒ Reconsider Carefully |
+| 70–100 | ✅ Highly Recommended |
+| 50–69 | 🟡 Moderately Recommended |
+| 30–49 | ⚠️ Proceed with Caution |
+| 0–29 | ❌ Reconsider Carefully |
 
 ---
 
-## ðŸ“ File Structure
+## 📁 File Structure
 
 ```
 life-decision-ai/
-â”‚
-â”œâ”€â”€ frontend/                        # React + Vite frontend
-â”‚   â”œâ”€â”€ public/
-â”‚   â”œâ”€â”€ src/
-â”‚   â”‚   â”œâ”€â”€ components/
-â”‚   â”‚   â”‚   â”œâ”€â”€ InputForm.jsx        # Main AI decision form
-â”‚   â”‚   â”‚   â”œâ”€â”€ HistoryPanel.jsx     # Decision history list
-â”‚   â”‚   â”‚   â”œâ”€â”€ MentorChat.jsx       # AI mentor chat UI
-â”‚   â”‚   â”‚   â”œâ”€â”€ RoadmapPanel.jsx     # Career roadmap viewer
-â”‚   â”‚   â”‚   â”œâ”€â”€ ComparePanel.jsx     # Career comparison tool
-â”‚   â”‚   â”‚   â”œâ”€â”€ XAIPanel.jsx         # Explainable AI panel
-â”‚   â”‚   â”‚   â”œâ”€â”€ ErrorBoundary.jsx    # Global error handler
-â”‚   â”‚   â”‚   â”œâ”€â”€ Toast.jsx            # Notification system
-â”‚   â”‚   â”‚   â””â”€â”€ Skeleton.jsx         # Loading skeletons
-â”‚   â”‚   â”œâ”€â”€ context/
-â”‚   â”‚   â”‚   â””â”€â”€ AuthContext.jsx      # Global auth state
-â”‚   â”‚   â”œâ”€â”€ pages/
-â”‚   â”‚   â”‚   â”œâ”€â”€ Login.jsx            # Login page
-â”‚   â”‚   â”‚   â”œâ”€â”€ Signup.jsx           # Registration page
-â”‚   â”‚   â”‚   â”œâ”€â”€ UserDashboard.jsx    # User stats dashboard
-â”‚   â”‚   â”‚   â””â”€â”€ Pricing.jsx          # Premium upgrade page
-â”‚   â”‚   â”œâ”€â”€ insforgeApi.js           # ALL API calls (Insforge)
-â”‚   â”‚   â”œâ”€â”€ App.jsx                  # Root app + routing
-â”‚   â”‚   â”œâ”€â”€ main.jsx                 # Entry point
-â”‚   â”‚   â””â”€â”€ index.css                # Global styles
-â”‚   â”œâ”€â”€ vercel.json                  # SPA routing config
-â”‚   â”œâ”€â”€ vite.config.js               # Vite bundler config
-â”‚   â””â”€â”€ package.json
-â”‚
-â”œâ”€â”€ insforge/
-â”‚   â”œâ”€â”€ functions/                   # Serverless edge functions
-â”‚   â”‚   â”œâ”€â”€ predict-decision.ts      # Core AI scoring engine
-â”‚   â”‚   â”œâ”€â”€ simulate-career.ts       # Salary projection engine
-â”‚   â”‚   â”œâ”€â”€ save-decision.ts         # Save decision to DB
-â”‚   â”‚   â”œâ”€â”€ get-user-history.ts      # Fetch user history
-â”‚   â”‚   â”œâ”€â”€ create-payment-order.ts  # Razorpay order creation
-â”‚   â”‚   â”œâ”€â”€ upgrade-user.ts          # Payment verification
-â”‚   â”‚   â””â”€â”€ create-user-profile.ts   # User profile setup
-â”‚   â””â”€â”€ schema.sql                   # Database schema
-â”‚
-â”œâ”€â”€ .env.example                     # Environment variable template
-â”œâ”€â”€ .gitignore
-â””â”€â”€ README.md
+│
+├── frontend/                        # React + Vite frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── InputForm.jsx        # Main AI decision form
+│   │   │   ├── HistoryPanel.jsx     # Decision history list
+│   │   │   ├── MentorChat.jsx       # AI mentor chat UI
+│   │   │   ├── RoadmapPanel.jsx     # Career roadmap viewer
+│   │   │   ├── ComparePanel.jsx     # Career comparison tool
+│   │   │   ├── XAIPanel.jsx         # Explainable AI panel
+│   │   │   ├── ErrorBoundary.jsx    # Global error handler
+│   │   │   ├── Toast.jsx            # Notification system
+│   │   │   └── Skeleton.jsx         # Loading skeletons
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx      # Global auth state
+│   │   ├── pages/
+│   │   │   ├── Login.jsx            # Login page
+│   │   │   ├── Signup.jsx           # Registration page
+│   │   │   ├── UserDashboard.jsx    # User stats dashboard
+│   │   │   └── Pricing.jsx          # Premium upgrade page
+│   │   ├── insforgeApi.js           # ALL API calls (Insforge)
+│   │   ├── App.jsx                  # Root app + routing
+│   │   ├── main.jsx                 # Entry point
+│   │   └── index.css                # Global styles
+│   ├── vercel.json                  # SPA routing config
+│   ├── vite.config.js               # Vite bundler config
+│   └── package.json
+│
+├── insforge/
+│   ├── functions/                   # Serverless edge functions
+│   │   ├── predict-decision.ts      # Core AI scoring engine
+│   │   ├── simulate-career.ts       # Salary projection engine
+│   │   ├── save-decision.ts         # Save decision to DB
+│   │   ├── get-user-history.ts      # Fetch user history
+│   │   ├── create-payment-order.ts  # Razorpay order creation
+│   │   ├── upgrade-user.ts          # Payment verification
+│   │   └── create-user-profile.ts   # User profile setup
+│   └── schema.sql                   # Database schema
+│
+├── .env.example                     # Environment variable template
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## ðŸš€ Full Setup Guide
+## 🚀 Full Setup Guide
 
 ### Prerequisites
 - Node.js v18+
@@ -195,19 +204,19 @@ life-decision-ai/
 - [Razorpay Account](https://razorpay.com) (for payments)
 - [Vercel Account](https://vercel.com) (for deployment)
 
-### Step 1 â€” Clone the Repository
+### Step 1 — Clone the Repository
 ```bash
 git clone https://github.com/MohammadSakibAhmad0874/Life-Decision-AI-.git
 cd Life-Decision-AI-
 ```
 
-### Step 2 â€” Install Frontend Dependencies
+### Step 2 — Install Frontend Dependencies
 ```bash
 cd frontend
 npm install
 ```
 
-### Step 3 â€” Configure Environment Variables
+### Step 3 — Configure Environment Variables
 ```bash
 cp .env.example .env
 ```
@@ -218,14 +227,14 @@ RAZORPAY_KEY_SECRET=XXXXXXXXXXXXXXXXXXXXXXXX
 SECRET_KEY=your_secure_jwt_secret_here
 ```
 
-### Step 4 â€” Run Locally (Development)
+### Step 4 — Run Locally (Development)
 ```bash
 cd frontend
 npm run dev
 # App runs at http://localhost:5173
 ```
 
-### Step 5 â€” Deploy Edge Functions to Insforge
+### Step 5 — Deploy Edge Functions to Insforge
 ```bash
 npx insforge login
 npx insforge link
@@ -239,22 +248,22 @@ npx insforge functions deploy upgrade-user --file insforge/functions/upgrade-use
 npx insforge functions deploy create-user-profile --file insforge/functions/create-user-profile.ts
 ```
 
-### Step 6 â€” Deploy Frontend to Vercel
+### Step 6 — Deploy Frontend to Vercel
 ```bash
 cd frontend
 npm run build
 npx vercel --prod --yes
 ```
 
-### Step 7 â€” Set Up Database
+### Step 7 — Set Up Database
 Run `insforge/schema.sql` in the **Insforge SQL Editor** to create:
-- `users` â€” user accounts and plan types
-- `decisions` â€” AI decision records with scores
-- `history` â€” decision history log
+- `users` — user accounts and plan types
+- `decisions` — AI decision records with scores
+- `history` — decision history log
 
 ---
 
-## ðŸ“Š Database Schema
+## 📊 Database Schema
 
 ```sql
 CREATE TABLE users (
@@ -286,23 +295,23 @@ CREATE TABLE history (
 
 ---
 
-## ðŸŒŸ Advantages
+## 🌟 Advantages
 
 | Advantage | Description |
 |---|---|
-| âœ… **Zero Server Cost** | Serverless edge functions â€” no always-on server |
-| âœ… **24/7 Availability** | Fully cloud-native, never goes down |
-| âœ… **Privacy First** | No third-party ML APIs â€” AI runs in-house |
-| âœ… **Explainable AI** | XAI panel shows exactly why each score was given |
-| âœ… **Lightning Fast** | Vite code-splitting + lazy loading + API caching |
-| âœ… **Scalable** | Vercel + Insforge auto-scale with traffic |
-| âœ… **Secure** | JWT auth, HMAC payment verification, no secrets in frontend |
-| âœ… **Modern UI** | Dark glassmorphism, skeleton loaders, toast notifications |
-| âœ… **Open Source** | Fork and adapt for any decision domain |
+| ✅ **Zero Server Cost** | Serverless edge functions — no always-on server |
+| ✅ **24/7 Availability** | Fully cloud-native, never goes down |
+| ✅ **Privacy First** | No third-party ML APIs — AI runs in-house |
+| ✅ **Explainable AI** | XAI panel shows exactly why each score was given |
+| ✅ **Lightning Fast** | Vite code-splitting + lazy loading + API caching |
+| ✅ **Scalable** | Vercel + Insforge auto-scale with traffic |
+| ✅ **Secure** | JWT auth, HMAC payment verification, no secrets in frontend |
+| ✅ **Modern UI** | Dark glassmorphism, skeleton loaders, toast notifications |
+| ✅ **Open Source** | Fork and adapt for any decision domain |
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -319,16 +328,16 @@ CREATE TABLE history (
 
 ---
 
-## ðŸ”’ Security
+## 🔒 Security
 
 - All API calls require a valid **Bearer token** (Insforge JWT)
 - Razorpay payment signatures are **server-side verified** using HMAC-SHA256
-- API keys stored as **Insforge secrets** â€” never exposed to the browser
-- `.env` file is **gitignored** â€” secrets never committed
+- API keys stored as **Insforge secrets** — never exposed to the browser
+- `.env` file is **gitignored** — secrets never committed
 
 ---
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 Pull requests are welcome!
 
@@ -340,17 +349,17 @@ Pull requests are welcome!
 
 ---
 
-## ðŸ“„ License
+## 📄 License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## ðŸ‘¨â€ðŸ’» Credits
+## 👨‍💻 Credits
 
 <div align="center">
 
-### Made with â¤ï¸ by
+### Made with ❤️ by
 
 # **Md Sakib Ahmad**
 
@@ -362,10 +371,11 @@ This project is licensed under the **MIT License**.
 
 > *"The best decision is an informed decision."*
 
-**Life Decision AI** â€” Empowering careers through the power of Soft Computing and AI.
+**Life Decision AI** — Empowering careers through the power of Soft Computing and AI.
 
 ---
 
-â­ **If this project helped you, please give it a star on GitHub!** â­
+⭐ **If this project helped you, please give it a star on GitHub!** ⭐
 
 </div>
+
