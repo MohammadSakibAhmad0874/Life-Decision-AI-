@@ -1,12 +1,3 @@
-# ðŸ§  Life Decision AI
-
-<div align="center">
-
-![Life Decision AI Banner](https://img.shields.io/badge/Life%20Decision%20AI-v6.0-blueviolet?style=for-the-badge&logo=artificial-intelligence)
-![Live](https://img.shields.io/badge/Live-Production-brightgreen?style=for-the-badge&logo=vercel)
-![Backend](https://img.shields.io/badge/Backend-Insforge-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
 # 🧠 Life Decision AI
 
 <div align="center">
